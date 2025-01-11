@@ -23,7 +23,7 @@ class ChatBotVM: ViewModel() {
     private val genAI by lazy{ // lazy comes in coroutine
         GenerativeModel(
          modelName = "gemini-pro",
-            apiKey = APIkey
+            apiKey = /*YOUR_APIKEY*/
         )
     }
 
